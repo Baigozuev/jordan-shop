@@ -1,0 +1,14 @@
+#buyCard {
+    
+  .buyCard {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    &--price {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+}

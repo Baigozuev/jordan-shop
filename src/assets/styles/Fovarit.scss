@@ -1,0 +1,13 @@
+#fovarit {
+  margin-top: 50px;
+  .fovarit {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 130px;
+    a {
+      margin-top: 30px;
+      margin-left: 280px;
+    }
+  }
+}

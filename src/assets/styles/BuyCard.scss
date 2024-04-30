@@ -1,0 +1,110 @@
+.buyCard {
+  width: 20%;
+  padding: 0 10px;
+  //   background: white;
+  height: 400px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  border-bottom: 1px solid white;
+  position: relative;
+  img {
+    width: 100%;
+  }
+
+  &--text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      margin-top: 7px;
+      font-size: 15px;
+      font-weight: 600;
+      color: white;
+      cursor: pointer;
+    }
+    h4 {
+      margin-top: 7px;
+      font-size: 15px;
+      font-weight: 600;
+      color: yellowgreen;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+  }
+  &--rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    &__star {
+      clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+      );
+      width: 15px;
+      height: 15px;
+      background: yellow;
+    }
+  }
+  a {
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+  }
+
+  &--icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &--price {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    h2 {
+      font-size: 16px;
+      font-weight: 500;
+      color: red;
+    }
+    h3 {
+      font-size: 13px;
+      font-weight: 500;
+      margin-left: -85px;
+      margin-bottom: -40px;
+      color: grey;
+      text-decoration: line-through;
+    }
+    button {
+      padding: 10px 30px;
+      border: 1px solid white;
+      outline: none;
+      border-radius: 10px;
+      color: white;
+      background: transparent;
+    }
+  }
+
+  &:hover {
+    border: 1px solid white;
+  }
+  .saleImg {
+    position: absolute;
+    top: 0;
+    width: 90px;
+  }
+  a {
+    margin-left: 230px;
+    margin-top: -40px;
+  }
+}

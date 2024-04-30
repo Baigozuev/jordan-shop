@@ -1,0 +1,32 @@
+@import "../src/assets/styles/Header.scss";
+@import "../src/assets/styles/Home.scss";
+@import "../src/assets/styles/AddCard.scss";
+@import "../src/assets/styles/Buynow.scss";
+@import "../src/assets/styles/BuyCard.scss";
+@import "../src/assets/styles/Basket.scss";
+@import "../src/assets/styles/Search.scss";
+@import "../src/assets/styles/ProductDetails.scss";
+@import "../src/assets/styles/Fovarit.scss";
+@import "../src/assets/styles/FovaritCard.scss";
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+body {
+  background: black;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}

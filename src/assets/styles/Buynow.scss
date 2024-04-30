@@ -1,0 +1,10 @@
+#buy {
+  margin-top: 80px;
+  .buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 38px;
+  }
+}
